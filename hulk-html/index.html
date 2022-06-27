@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Hulk</title>
+
+  </head>
+  <body>
+    <div class="root">
+      <header class="d-flex flex-center">
+        <div class="container">
+          <img class="logo-marvel" src="./img/logo-marvel.png" />
+        </div>
+      </header>
+
+      <main class="d-flex flex-center">
+        <section class="container d-flex" >
+          <div class="content" id="principal">
+            <h4>Personagem Marvel</h4>
+            <h1>Hulk</h1>
+            <p>
+              Caught in a gamma bomb explosion while trying to save the life of
+              a teenager, Dr. Bruce Banner was transformed into the incredibly
+              powerful creature called the Hulk. An all too often misunderstood
+              hero, the angrier the Hulk gets, the stronger the Hulk gets.
+            </p>
+            <img class="img-personagem" src="./img/personagem.jpg" />
+
+            <div class="d-flex table">
+              <h3>Tabela</h3>
+              <table>
+                <thead>
+                  <th>ID</th>
+                  <th>Titulo</th>
+                  <th>Tipo</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1218</td>
+                    <td>Interior #1218</td>
+                    <td>story</td>
+                  </tr>
+                  <tr>
+                    <td>1219</td>
+                    <td>INCREDIBLE HULK(1999) #69</td>
+                    <td>cover</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+          
+          <div class="list color-white">
+            <h3 class="tile-list">Lista de Aparições (comics)</h3>
+            <ul>
+              <li>FREE COMIC BOOK DAY 2013 1 (2013) #1</li>
+              <li>Hulk (2008) #53</li>
+              <li>Hulk (2008) #54</li>
+              <li>Hulk (2008) #55</li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      
+      <footer class="d-flex flex-center">
+        <div class="container d-flex flex-center-center">
+          <a class="link-marvel" href="https://www.marvel.com"
+            >Data provided by Marvel. © 2022 MARVEL</a
+          >
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.js" integrity="sha512-NpfrQEgzOExS1Ax8fjITKrgBFK87lZbBmvWdZk4suiCC4tsHPrTCsulgIA7Z/+CeWhDpEP/f36mNWgZXDKtTAA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="api.js"></script>
+  </body>
+</html>

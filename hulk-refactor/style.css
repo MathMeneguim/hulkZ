@@ -1,0 +1,80 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/*css do cabecalho*/
+.cabecalho {
+  background-color: brown;
+}
+.logo {
+  height:50px;
+  padding: 10px 0;
+}
+/*css do conteudo principal*/
+.principal {
+  flex-grow: 1; /*toma todo o espaço sobrando da página*/
+}
+.conteudo-centro {
+  padding: 8px;
+  width: 70%;
+  flex-direction:column;
+}
+.conteudo-centro h1 {
+  margin-top: 0;
+}
+.conteudo-centro h4 {
+  margin-bottom:0;
+}
+.conteudo-centro p {
+  margin-top: 0;
+}
+.imagem-hulk {
+  width:100%;
+}
+.conteudo-direita {
+  background-color:crimson;
+  width:30%;
+  flex-direction: column;
+  color: white;
+}
+.titulo-direita {
+  padding-top: 8px;
+  padding-left: 20px
+}
+
+/*css's genericos*/
+.display-flex {
+  display: flex;
+
+}
+.centralizar {
+  justify-content: center;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+}
+
+/*css do rodape*/
+.rodape {
+  background-color: #333333;
+  min-height: 56px;
+}
+
+.link {
+  color:white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.link:hover {
+  color: rgb(0, 140, 0);
+}
